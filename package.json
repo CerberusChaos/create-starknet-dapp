@@ -1,0 +1,51 @@
+{
+  "name": "create-starknet-dapp",
+  "version": "0.2.5",
+  "type": "module",
+  "license": "MIT",
+  "author": "nlyrthiia",
+  "bin": {
+    "create-starknet-dapp": "index.js",
+    "starknet-dapp": "index.js",
+    "snd": "index.js"
+  },
+  "files": [
+    "index.js",
+    "template-*/**/*",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "unbuild --stub",
+    "build": "unbuild",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "engines": {
+    "node": "^18.0.0 || >=20.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CerberusChaos/cli-test.git"
+  },
+  "homepage": "https://github.com/CerberusChaos/cli-test#readme",
+  "devDependencies": {
+    "@types/minimist": "^1.2.5",
+    "@types/prompts": "^2.4.9",
+    "cross-spawn": "^7.0.3",
+    "kolorist": "^1.8.0",
+    "minimist": "^1.2.8",
+    "prompts": "^2.4.2",
+    "unbuild": "^2.0.0"
+  },
+  "dependencies": {
+    "typescript": "^5.3.3"
+  },
+  "description": "## Scaffolding Your First Starknet Dapp Project",
+  "bugs": {
+    "url": "https://github.com/CerberusChaos/cli-test/issues"
+  },
+  "main": "index.js",
+  "keywords": [
+    "starknet-dapp"
+  ]
+}
