@@ -1,6 +1,6 @@
 {
   "name": "create-starknet-dapp",
-  "version": "0.2.5",
+  "version": "0.2.7",
   "type": "module",
   "license": "MIT",
   "author": "nlyrthiia",
@@ -25,9 +25,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CerberusChaos/cli-test.git"
+    "url": "git+https://github.com/CerberusChaos/create-starknet-dapp.git"
   },
-  "homepage": "https://github.com/CerberusChaos/cli-test#readme",
+  "homepage": "https://github.com/CerberusChaos/create-starknet-dapp#readme",
   "devDependencies": {
     "@types/minimist": "^1.2.5",
     "@types/prompts": "^2.4.9",
@@ -42,7 +42,7 @@
   },
   "description": "## Scaffolding Your First Starknet Dapp Project",
   "bugs": {
-    "url": "https://github.com/CerberusChaos/cli-test/issues"
+    "url": "https://github.com/CerberusChaos/create-starknet-dapp/issues"
   },
   "main": "index.js",
   "keywords": [
