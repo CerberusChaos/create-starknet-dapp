@@ -15,6 +15,12 @@ With Npm:
 $ npx create-starknet-dapp
 ```
 
+With Yarn:
+
+```bash
+$ yarn create starknet-dapp my-vue-app --template nextjs
+```
+
 With Pnpm:
 
 ```bash
@@ -64,6 +70,8 @@ After creating your project, you can use various tools and libraries to develop 
 ## Contributions 🙌
 
 If you encounter issues or have improvement suggestions, please feel free to raise issues or submit pull requests. We welcome contributions from the community!
+
+🌟 Created a StarkNet project using our template? We're excited to share your work with the global StarkNet community! Simply email us your project name and GitHub link, and we'll feature your project in our README and on Discord. This is a great opportunity to increase your project's visibility and join our vibrant StarkNet community!
 
 ## License 📜
 
